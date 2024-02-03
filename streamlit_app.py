@@ -30,7 +30,7 @@ canvas_result = st_canvas(
 )
 
 if canvas_result.image_data is not None:
-    st.image(canvas_result.image_data)
+    # st.image(canvas_result.image_data)
     print(type(canvas_result.image_data))
     im = Image.fromarray(canvas_result.image_data)
     im= im.convert("L")
