@@ -45,4 +45,4 @@ if canvas_result.image_data is not None:
     prediction = model.predict(np.array(im).reshape(1,28,28,1))
     col2.write("Predicted result:")
     col2.header(np.argmax(prediction))
-    col2.write(prediction)
+    # col2.write(prediction)
