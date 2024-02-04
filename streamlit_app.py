@@ -6,7 +6,7 @@ import numpy as np
 
 @st.cache_resource
 def load_ml_model():
-    return load_model('digit_recogniser1.h5')
+    return load_model('digit_recogniser4.h5')
 
 
 st.title("Hand written digit recognizer")
